@@ -4,13 +4,13 @@ import { Switch } from 'react-router-dom';
 import Route from './route';
 
 import Main from '~/pages/Main';
-import Error404 from '~/pages/Error404';
+import Login from '~/pages/Login';
 
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/login" component={Main} />
-      <Route exact path="*" component={Error404} />
+      <Route path="/login" component={Login} />
+      <Route exact path="/" component={Main} isPrivate />
     </Switch>
   );
 };

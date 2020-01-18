@@ -1,6 +1,6 @@
 {
   "name": "cra-template-react-base-dscamargo",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "keywords": [
     "react",
     "create-react-app",
@@ -10,6 +10,14 @@
   "description": "The base template for Create React App.",
   "main": "template.json",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dscamargo/react-template-base"
+  },
+  "bugs": {
+    "url": "https://github.com/dscamargo/react-template-base/issues"
+  },
+  "homepage": "https://github.com/dscamargo/react-template-base",
   "engines": {
     "node": ">=8"
   },
